@@ -1,0 +1,71 @@
+﻿run_started_utc,query_id,query_text,output_file,status,youtube_rows,youtube_with_transcript,tiktok_rows,tiktok_with_transcript,tiktok_credits_spent,notes
+2026-10-01T16:46:38Z,Q001,Pediatric CPR,Q001_pediatric_cpr.partial.csv,partial,50,37,60,38,2,youtube_transcripts_paused_ip_block
+2026-10-01T16:49:07Z,Q002,Infant CPR,Q002_infant_cpr.partial.csv,partial,50,21,60,35,1,youtube_transcripts_paused_ip_block
+2026-10-01T16:50:06Z,Q003,Child CPR,Q003_child_cpr.partial.csv,partial,50,20,56,31,2,youtube_transcripts_paused_ip_block
+2026-10-01T16:51:19Z,Q004,Baby CPR,Q004_baby_cpr.partial.csv,partial,50,26,57,34,2,youtube_transcripts_paused_ip_block
+2026-10-01T16:52:06Z,Q005,Infant and child CPR,Q005_infant_and_child_cpr.partial.csv,partial,49,26,58,31,2,youtube_transcripts_paused_ip_block
+2026-10-01T16:52:43Z,Q006,Pediatric cardiopulmonary resuscitation,Q006_pediatric_cardiopulmonary_resuscitation.partial.csv,partial,50,24,57,35,2,youtube_transcripts_paused_ip_block
+2026-10-01T16:53:25Z,Q007,Infant CPR two-finger technique,Q007_infant_cpr_two_finger_technique.partial.csv,partial,50,2,56,27,2,youtube_transcripts_paused_ip_block
+2026-10-01T16:54:39Z,Q008,Neonatal CPR,Q008_neonatal_cpr.partial.csv,partial,50,13,56,27,2,youtube_transcripts_paused_ip_block
+2026-10-01T16:55:49Z,Q009,Newborn resuscitation,Q009_newborn_resuscitation.partial.csv,partial,50,2,55,24,2,youtube_transcripts_paused_ip_block
+2026-10-01T16:56:50Z,Q010,Neonatal resuscitation,Q010_neonatal_resuscitation.partial.csv,partial,50,1,60,19,2,youtube_transcripts_paused_ip_block
+2026-10-01T16:57:30Z,Q011,Pediatric Basic Life Support,Q011_pediatric_basic_life_support.partial.csv,partial,50,7,55,32,2,youtube_transcripts_paused_ip_block
+2026-10-01T16:58:57Z,Q012,Pediatric BLS,Q012_pediatric_bls.partial.csv,partial,50,7,55,34,2,youtube_transcripts_paused_ip_block
+2026-10-01T16:59:41Z,Q013,Basic Life Support for infants and children,Q013_basic_life_support_for_infants_and_children.partial.csv,partial,50,10,49,30,2,youtube_transcripts_paused_ip_block
+2026-10-01T17:00:32Z,Q014,Pediatric choking,Q014_pediatric_choking.partial.csv,partial,50,3,59,43,2,youtube_transcripts_paused_ip_block
+2026-10-01T17:02:11Z,Q015,Infant choking,Q015_infant_choking.partial.csv,partial,50,2,56,43,2,youtube_transcripts_paused_ip_block
+2026-10-01T17:03:23Z,Q016,Child choking,Q016_child_choking.partial.csv,partial,50,1,60,43,2,youtube_transcripts_paused_ip_block
+2026-10-01T17:04:13Z,Q017,Baby choking,Q017_baby_choking.partial.csv,partial,50,2,56,38,2,youtube_transcripts_paused_ip_block
+2026-10-01T17:04:44Z,Q018,Toddler choking,Q018_toddler_choking.partial.csv,partial,50,2,57,40,2,youtube_transcripts_paused_ip_block
+2026-10-01T17:05:17Z,Q019,Choking first aid for infants,Q019_choking_first_aid_for_infants.partial.csv,partial,50,5,58,40,2,youtube_transcripts_paused_ip_block
+2026-10-01T17:05:48Z,Q020,How to save a choking baby,Q020_how_to_save_a_choking_baby.partial.csv,partial,50,4,58,42,2,youtube_transcripts_paused_ip_block
+2026-10-01T17:06:22Z,Q021,Infant back blows and chest thrusts,Q021_infant_back_blows_and_chest_thrusts.partial.csv,partial,50,0,59,35,2,youtube_transcripts_paused_ip_block
+2026-10-01T17:07:23Z,Q022,Heimlich maneuver for children,Q022_heimlich_maneuver_for_children.partial.csv,partial,50,0,59,38,2,youtube_transcripts_paused_ip_block
+2026-10-01T17:08:20Z,Q023,Unconscious choking child CPR,Q023_unconscious_choking_child_cpr.partial.csv,partial,50,1,59,42,2,youtube_transcripts_paused_ip_block
+2026-10-01T17:09:31Z,Q024,Foreign body airway obstruction in children,Q024_foreign_body_airway_obstruction_in_children.partial.csv,partial,50,0,59,31,2,youtube_transcripts_paused_ip_block
+2026-10-01T17:10:58Z,Q025,Foreign body airway obstruction in infants,Q025_foreign_body_airway_obstruction_in_infants.partial.csv,partial,50,1,53,36,2,youtube_transcripts_paused_ip_block
+2026-10-01T17:11:39Z,Q026,Pediatric chest compressions,Q026_pediatric_chest_compressions.partial.csv,partial,50,18,56,26,2,youtube_transcripts_paused_ip_block
+2026-10-01T17:12:18Z,Q027,Infant chest compressions,Q027_infant_chest_compressions.partial.csv,partial,50,17,54,32,2,youtube_transcripts_paused_ip_block
+2026-10-01T17:12:45Z,Q028,Pediatric AED,Q028_pediatric_aed.partial.csv,partial,50,10,52,18,2,youtube_transcripts_paused_ip_block
+2026-10-01T17:14:05Z,Q029,AED use in children,Q029_aed_use_in_children.partial.csv,partial,50,2,60,35,2,youtube_transcripts_paused_ip_block
+2026-10-01T17:15:50Z,Q030,Pediatric rescue breathing,Q030_pediatric_rescue_breathing.partial.csv,partial,50,12,57,38,2,youtube_transcripts_paused_ip_block
+2026-10-01T17:16:58Z,Q031,Rescue breathing for infants,Q031_rescue_breathing_for_infants.partial.csv,partial,50,9,60,34,2,youtube_transcripts_paused_ip_block
+2026-10-01T17:17:29Z,Q032,Pediatric CPR and choking management,Q032_pediatric_cpr_and_choking_management.partial.csv,partial,50,8,60,38,2,youtube_transcripts_paused_ip_block
+2026-10-01T17:18:03Z,Q033,Infant and child CPR and choking,Q033_infant_and_child_cpr_and_choking.partial.csv,partial,50,18,59,38,2,youtube_transcripts_paused_ip_block
+2026-10-01T17:18:28Z,Q034,bachon ki CPR,Q034_bachon_ki_cpr.partial.csv,partial,50,16,57,28,2,youtube_transcripts_paused_ip_block
+2026-10-01T17:19:00Z,Q035,bache ka dam ghutna choking,Q035_bache_ka_dam_ghutna_choking.partial.csv,partial,50,0,59,33,2,youtube_transcripts_paused_ip_block
+2026-10-02T01:34:49Z,Q001,Pediatric CPR,Q001_pediatric_cpr.partial.csv,partial,50,37,60,38,0,youtube_transcripts_paused_ip_block
+2026-10-02T01:35:06Z,Q002,Infant CPR,Q002_infant_cpr.partial.csv,partial,50,21,60,35,0,youtube_transcripts_paused_ip_block
+2026-10-02T01:35:07Z,Q003,Child CPR,Q003_child_cpr.partial.csv,partial,50,20,56,31,0,youtube_transcripts_paused_ip_block
+2026-10-02T01:35:08Z,Q004,Baby CPR,Q004_baby_cpr.partial.csv,partial,50,26,57,34,0,youtube_transcripts_paused_ip_block
+2026-10-02T01:35:08Z,Q005,Infant and child CPR,Q005_infant_and_child_cpr.partial.csv,partial,49,26,58,31,0,youtube_transcripts_paused_ip_block
+2026-10-02T01:35:09Z,Q006,Pediatric cardiopulmonary resuscitation,Q006_pediatric_cardiopulmonary_resuscitation.partial.csv,partial,50,24,57,35,0,youtube_transcripts_paused_ip_block
+2026-10-02T01:35:10Z,Q007,Infant CPR two-finger technique,Q007_infant_cpr_two_finger_technique.partial.csv,partial,50,2,56,27,0,youtube_transcripts_paused_ip_block
+2026-10-02T01:35:11Z,Q008,Neonatal CPR,Q008_neonatal_cpr.partial.csv,partial,50,13,56,27,0,youtube_transcripts_paused_ip_block
+2026-10-02T01:35:11Z,Q009,Newborn resuscitation,Q009_newborn_resuscitation.partial.csv,partial,50,2,55,24,0,youtube_transcripts_paused_ip_block
+2026-10-02T01:35:12Z,Q010,Neonatal resuscitation,Q010_neonatal_resuscitation.partial.csv,partial,50,1,60,19,0,youtube_transcripts_paused_ip_block
+2026-10-02T01:35:13Z,Q011,Pediatric Basic Life Support,Q011_pediatric_basic_life_support.partial.csv,partial,50,7,55,32,0,youtube_transcripts_paused_ip_block
+2026-10-02T01:35:13Z,Q012,Pediatric BLS,Q012_pediatric_bls.partial.csv,partial,50,7,55,34,0,youtube_transcripts_paused_ip_block
+2026-10-02T01:35:14Z,Q013,Basic Life Support for infants and children,Q013_basic_life_support_for_infants_and_children.partial.csv,partial,50,10,49,30,0,youtube_transcripts_paused_ip_block
+2026-10-02T01:35:15Z,Q014,Pediatric choking,Q014_pediatric_choking.partial.csv,partial,50,3,59,43,0,youtube_transcripts_paused_ip_block
+2026-10-02T01:35:16Z,Q015,Infant choking,Q015_infant_choking.partial.csv,partial,50,2,56,43,0,youtube_transcripts_paused_ip_block
+2026-10-02T01:35:17Z,Q016,Child choking,Q016_child_choking.partial.csv,partial,50,1,60,43,0,youtube_transcripts_paused_ip_block
+2026-10-02T01:35:17Z,Q017,Baby choking,Q017_baby_choking.partial.csv,partial,50,2,56,38,0,youtube_transcripts_paused_ip_block
+2026-10-02T01:35:18Z,Q018,Toddler choking,Q018_toddler_choking.partial.csv,partial,50,2,57,40,0,youtube_transcripts_paused_ip_block
+2026-10-02T01:35:18Z,Q019,Choking first aid for infants,Q019_choking_first_aid_for_infants.partial.csv,partial,50,5,58,40,0,youtube_transcripts_paused_ip_block
+2026-10-02T01:35:19Z,Q020,How to save a choking baby,Q020_how_to_save_a_choking_baby.partial.csv,partial,50,4,58,42,0,youtube_transcripts_paused_ip_block
+2026-10-02T01:35:19Z,Q021,Infant back blows and chest thrusts,Q021_infant_back_blows_and_chest_thrusts.partial.csv,partial,50,0,59,35,0,youtube_transcripts_paused_ip_block
+2026-10-02T01:35:20Z,Q022,Heimlich maneuver for children,Q022_heimlich_maneuver_for_children.partial.csv,partial,50,0,59,38,0,youtube_transcripts_paused_ip_block
+2026-10-02T01:35:21Z,Q023,Unconscious choking child CPR,Q023_unconscious_choking_child_cpr.partial.csv,partial,50,1,59,42,0,youtube_transcripts_paused_ip_block
+2026-10-02T01:35:21Z,Q024,Foreign body airway obstruction in children,Q024_foreign_body_airway_obstruction_in_children.partial.csv,partial,50,0,59,31,0,youtube_transcripts_paused_ip_block
+2026-10-02T01:35:22Z,Q025,Foreign body airway obstruction in infants,Q025_foreign_body_airway_obstruction_in_infants.partial.csv,partial,50,1,53,36,0,youtube_transcripts_paused_ip_block
+2026-10-02T01:35:22Z,Q026,Pediatric chest compressions,Q026_pediatric_chest_compressions.partial.csv,partial,50,18,56,26,0,youtube_transcripts_paused_ip_block
+2026-10-02T01:35:23Z,Q027,Infant chest compressions,Q027_infant_chest_compressions.partial.csv,partial,50,17,54,32,0,youtube_transcripts_paused_ip_block
+2026-10-02T01:35:23Z,Q028,Pediatric AED,Q028_pediatric_aed.partial.csv,partial,50,10,52,18,0,youtube_transcripts_paused_ip_block
+2026-10-02T01:35:24Z,Q029,AED use in children,Q029_aed_use_in_children.partial.csv,partial,50,2,60,35,0,youtube_transcripts_paused_ip_block
+2026-10-02T01:35:59Z,Q030,Pediatric rescue breathing,Q030_pediatric_rescue_breathing.partial.csv,partial,50,12,57,38,0,youtube_transcripts_paused_ip_block
+2026-10-02T01:36:00Z,Q031,Rescue breathing for infants,Q031_rescue_breathing_for_infants.partial.csv,partial,50,9,60,34,0,youtube_transcripts_paused_ip_block
+2026-10-02T01:36:00Z,Q032,Pediatric CPR and choking management,Q032_pediatric_cpr_and_choking_management.partial.csv,partial,50,8,60,38,0,youtube_transcripts_paused_ip_block
+2026-10-02T01:36:01Z,Q033,Infant and child CPR and choking,Q033_infant_and_child_cpr_and_choking.partial.csv,partial,50,18,59,38,0,youtube_transcripts_paused_ip_block
+2026-10-02T01:36:02Z,Q034,bachon ki CPR,Q034_bachon_ki_cpr.partial.csv,partial,50,16,57,28,0,youtube_transcripts_paused_ip_block
+2026-10-02T01:36:02Z,Q035,bache ka dam ghutna choking,Q035_bache_ka_dam_ghutna_choking.partial.csv,partial,50,0,59,33,0,youtube_transcripts_paused_ip_block

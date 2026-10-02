@@ -1,0 +1,17 @@
+.env
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+data/cache/*
+!data/cache/.gitkeep
+data/smoke_test/
+logs/*
+!logs/.gitkeep
+*.tmp
+.DS_Store
+
+# Temporary and runtime files
+*.partial.csv
+logs/*

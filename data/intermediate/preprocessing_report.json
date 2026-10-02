@@ -1,0 +1,109 @@
+{
+  "merge": {
+    "files_merged": 35,
+    "partial_files": [
+      "Q001_pediatric_cpr.partial.csv",
+      "Q002_infant_cpr.partial.csv",
+      "Q003_child_cpr.partial.csv",
+      "Q004_baby_cpr.partial.csv",
+      "Q005_infant_and_child_cpr.partial.csv",
+      "Q006_pediatric_cardiopulmonary_resuscitation.partial.csv",
+      "Q007_infant_cpr_two_finger_technique.partial.csv",
+      "Q008_neonatal_cpr.partial.csv",
+      "Q009_newborn_resuscitation.partial.csv",
+      "Q010_neonatal_resuscitation.partial.csv",
+      "Q011_pediatric_basic_life_support.partial.csv",
+      "Q012_pediatric_bls.partial.csv",
+      "Q013_basic_life_support_for_infants_and_children.partial.csv",
+      "Q014_pediatric_choking.partial.csv",
+      "Q015_infant_choking.partial.csv",
+      "Q016_child_choking.partial.csv",
+      "Q017_baby_choking.partial.csv",
+      "Q018_toddler_choking.partial.csv",
+      "Q019_choking_first_aid_for_infants.partial.csv",
+      "Q020_how_to_save_a_choking_baby.partial.csv",
+      "Q021_infant_back_blows_and_chest_thrusts.partial.csv",
+      "Q022_heimlich_maneuver_for_children.partial.csv",
+      "Q023_unconscious_choking_child_cpr.partial.csv",
+      "Q024_foreign_body_airway_obstruction_in_children.partial.csv",
+      "Q025_foreign_body_airway_obstruction_in_infants.partial.csv",
+      "Q026_pediatric_chest_compressions.partial.csv",
+      "Q027_infant_chest_compressions.partial.csv",
+      "Q028_pediatric_aed.partial.csv",
+      "Q029_aed_use_in_children.partial.csv",
+      "Q030_pediatric_rescue_breathing.partial.csv",
+      "Q031_rescue_breathing_for_infants.partial.csv",
+      "Q032_pediatric_cpr_and_choking_management.partial.csv",
+      "Q033_infant_and_child_cpr_and_choking.partial.csv",
+      "Q034_bachon_ki_cpr.partial.csv",
+      "Q035_bache_ka_dam_ghutna_choking.partial.csv"
+    ],
+    "missing_queries": [],
+    "rows": 3750,
+    "rows_by_platform": {
+      "tiktok": 2001,
+      "youtube": 1749
+    },
+    "output": "D:\\projects\\video_screening\\data\\intermediate\\master_raw.csv"
+  },
+  "dedupe": {
+    "rows_in": 3750,
+    "rows_dropped_missing_video_id": 0,
+    "unique_videos": 1965,
+    "duplicates_removed": 1785,
+    "by_platform": {
+      "tiktok": {
+        "rows_in": 2001,
+        "unique_videos": 1257,
+        "duplicates_removed": 744,
+        "videos_found_by_2plus_queries": 351,
+        "videos_found_by_5plus_queries": 55,
+        "max_queries_for_one_video": 18,
+        "mean_queries_per_video": 1.59
+      },
+      "youtube": {
+        "rows_in": 1749,
+        "unique_videos": 708,
+        "duplicates_removed": 1041,
+        "videos_found_by_2plus_queries": 345,
+        "videos_found_by_5plus_queries": 85,
+        "max_queries_for_one_video": 19,
+        "mean_queries_per_video": 2.47
+      }
+    }
+  },
+  "clean": {
+    "rows_in": 1965,
+    "rows_kept": 1929,
+    "rows_dropped": 36,
+    "dropped_by_reason": {
+      "metadata_not_ok": 20,
+      "no_text_at_all": 16
+    },
+    "invalid_or_out_of_range_dates_blanked": 0,
+    "transcripts_encoding_repaired": 87,
+    "transcripts_corrupt_blanked": 37,
+    "by_platform": {
+      "tiktok": {
+        "videos": 1241,
+        "has_transcript_pct": 55.4,
+        "has_description_pct": null,
+        "missing_upload_date": 0,
+        "missing_views": 0,
+        "missing_likes": 0,
+        "country_unknown_pct": 0.0,
+        "language_unknown_pct": 6.7
+      },
+      "youtube": {
+        "videos": 688,
+        "has_transcript_pct": 5.5,
+        "has_description_pct": 92.9,
+        "missing_upload_date": 0,
+        "missing_views": 0,
+        "missing_likes": 52,
+        "country_unknown_pct": 100.0,
+        "language_unknown_pct": 6.0
+      }
+    }
+  }
+}

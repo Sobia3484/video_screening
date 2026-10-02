@@ -1,0 +1,37 @@
+﻿video_uid,platform,video_id,url,metadata_status,reason
+tiktok:6895414073907858693,tiktok,6895414073907858693,https://www.tiktok.com/@nurse.a/video/6895414073907858693,ok,no_text_at_all
+tiktok:7311549229271403819,tiktok,7311549229271403819,https://www.tiktok.com/@jayinscrubs_/video/7311549229271403819,ok,no_text_at_all
+tiktok:7335536990768598314,tiktok,7335536990768598314,https://www.tiktok.com/@bluerevolution13/video/7335536990768598314,ok,no_text_at_all
+tiktok:7543011876565683470,tiktok,7543011876565683470,https://www.tiktok.com/@beingalifesaverllc/video/7543011876565683470,ok,no_text_at_all
+tiktok:7616767049569668368,tiktok,7616767049569668368,https://www.tiktok.com/@blackwoods.health/video/7616767049569668368,ok,no_text_at_all
+tiktok:7621102937661558046,tiktok,7621102937661558046,https://www.tiktok.com/@balbo222/video/7621102937661558046,ok,no_text_at_all
+tiktok:7633972326412995871,tiktok,7633972326412995871,https://www.tiktok.com/@jess.aurore/video/7633972326412995871,ok,no_text_at_all
+tiktok:7641663953625419038,tiktok,7641663953625419038,https://www.tiktok.com/@joseph_myers_/video/7641663953625419038,ok,no_text_at_all
+tiktok:7659744246932573453,tiktok,7659744246932573453,https://www.tiktok.com/@zalmaizeyarmal/video/7659744246932573453,ok,no_text_at_all
+tiktok:7664269143864069379,tiktok,7664269143864069379,https://www.tiktok.com/@specolix/video/7664269143864069379,ok,no_text_at_all
+tiktok:7664679619144011038,tiktok,7664679619144011038,https://www.tiktok.com/@boby.dututer/video/7664679619144011038,ok,no_text_at_all
+tiktok:7673678518563179789,tiktok,7673678518563179789,https://www.tiktok.com/@beingalifesaverllc/video/7673678518563179789,ok,no_text_at_all
+tiktok:7679486158874742047,tiktok,7679486158874742047,https://www.tiktok.com/@kay19647/video/7679486158874742047,ok,no_text_at_all
+tiktok:7681446225391996174,tiktok,7681446225391996174,https://www.tiktok.com/@shes.a.cool.kat/video/7681446225391996174,ok,no_text_at_all
+tiktok:7684287831396650254,tiktok,7684287831396650254,https://www.tiktok.com/@soloyurileon/video/7684287831396650254,ok,no_text_at_all
+tiktok:7690741008757312776,tiktok,7690741008757312776,https://www.tiktok.com/@stevedabumbero/video/7690741008757312776,ok,no_text_at_all
+youtube:-nOCSyKlu-Y,youtube,-nOCSyKlu-Y,https://www.youtube.com/watch?v=-nOCSyKlu-Y,failed: ERROR: [youtube] -nOCSyKlu-Y: Please sign in. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to,metadata_not_ok
+youtube:0w450K6lh4M,youtube,0w450K6lh4M,https://www.youtube.com/watch?v=0w450K6lh4M,unavailable: [0;31mERROR:[0m [youtube] 0w450K6lh4M: This video is not available,metadata_not_ok
+youtube:8U1XCYoMdHs,youtube,8U1XCYoMdHs,https://www.youtube.com/watch?v=8U1XCYoMdHs,unavailable: [0;31mERROR:[0m [youtube] 8U1XCYoMdHs: This video is not available,metadata_not_ok
+youtube:8cIR0aYacAM,youtube,8cIR0aYacAM,https://www.youtube.com/watch?v=8cIR0aYacAM,unavailable: [0;31mERROR:[0m [youtube] 8cIR0aYacAM: This video is not available,metadata_not_ok
+youtube:AoDk2QlPJbY,youtube,AoDk2QlPJbY,https://www.youtube.com/watch?v=AoDk2QlPJbY,unavailable: [0;31mERROR:[0m [youtube] AoDk2QlPJbY: This video is not available,metadata_not_ok
+youtube:Do2dSEwF3rU,youtube,Do2dSEwF3rU,https://www.youtube.com/watch?v=Do2dSEwF3rU,unavailable: [0;31mERROR:[0m [youtube] Do2dSEwF3rU: This video is not available,metadata_not_ok
+youtube:Elij_f6Rqy8,youtube,Elij_f6Rqy8,https://www.youtube.com/watch?v=Elij_f6Rqy8,failed: ERROR: [youtube] Elij_f6Rqy8: Please sign in. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to,metadata_not_ok
+youtube:KL5AI4kKTyo,youtube,KL5AI4kKTyo,https://www.youtube.com/watch?v=KL5AI4kKTyo,unavailable: [0;31mERROR:[0m [youtube] KL5AI4kKTyo: This video is not available,metadata_not_ok
+youtube:LusETAfqPWI,youtube,LusETAfqPWI,https://www.youtube.com/watch?v=LusETAfqPWI,failed: ERROR: [youtube] LusETAfqPWI: Please sign in. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to,metadata_not_ok
+youtube:MEqJKbfvric,youtube,MEqJKbfvric,https://www.youtube.com/watch?v=MEqJKbfvric,unavailable: [0;31mERROR:[0m [youtube] MEqJKbfvric: Sign in to confirm your age. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cooki,metadata_not_ok
+youtube:Opfuyz0aHWA,youtube,Opfuyz0aHWA,https://www.youtube.com/watch?v=Opfuyz0aHWA,unavailable: [0;31mERROR:[0m [youtube] Opfuyz0aHWA: This video is not available,metadata_not_ok
+youtube:RAlj6Zu1rqI,youtube,RAlj6Zu1rqI,https://www.youtube.com/watch?v=RAlj6Zu1rqI,unavailable: [0;31mERROR:[0m [youtube] RAlj6Zu1rqI: This video is not available,metadata_not_ok
+youtube:SSK3DL9hfck,youtube,SSK3DL9hfck,https://www.youtube.com/watch?v=SSK3DL9hfck,unavailable: [0;31mERROR:[0m [youtube] SSK3DL9hfck: This video is not available,metadata_not_ok
+youtube:aks4waFy5yU,youtube,aks4waFy5yU,https://www.youtube.com/watch?v=aks4waFy5yU,unavailable: [0;31mERROR:[0m [youtube] aks4waFy5yU: This video is not available,metadata_not_ok
+youtube:cDm9Aj5LTso,youtube,cDm9Aj5LTso,https://www.youtube.com/watch?v=cDm9Aj5LTso,failed: ERROR: [youtube] cDm9Aj5LTso: Please sign in. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to,metadata_not_ok
+youtube:j45WfhxK_Hs,youtube,j45WfhxK_Hs,https://www.youtube.com/watch?v=j45WfhxK_Hs,unavailable: [0;31mERROR:[0m [youtube] j45WfhxK_Hs: This video is not available,metadata_not_ok
+youtube:kxCJmnvwQwI,youtube,kxCJmnvwQwI,https://www.youtube.com/watch?v=kxCJmnvwQwI,unavailable: [0;31mERROR:[0m [youtube] kxCJmnvwQwI: This video is not available,metadata_not_ok
+youtube:nPdTFLB1CFQ,youtube,nPdTFLB1CFQ,https://www.youtube.com/watch?v=nPdTFLB1CFQ,failed: ERROR: [youtube] nPdTFLB1CFQ: Please sign in. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to,metadata_not_ok
+youtube:pwFQgTqrtuc,youtube,pwFQgTqrtuc,https://www.youtube.com/watch?v=pwFQgTqrtuc,unavailable: [0;31mERROR:[0m [youtube] pwFQgTqrtuc: This video is not available,metadata_not_ok
+youtube:v3wJ_Bw8kcw,youtube,v3wJ_Bw8kcw,https://www.youtube.com/watch?v=v3wJ_Bw8kcw,unavailable: [0;31mERROR:[0m [youtube] v3wJ_Bw8kcw: This video is not available,metadata_not_ok

@@ -1,0 +1,36 @@
+query_id,query,subtopic,query_language
+Q001,Pediatric CPR,cpr,en
+Q002,Infant CPR,cpr,en
+Q003,Child CPR,cpr,en
+Q004,Baby CPR,cpr,en
+Q005,Infant and child CPR,cpr,en
+Q006,Pediatric cardiopulmonary resuscitation,cpr,en
+Q007,Infant CPR two-finger technique,cpr,en
+Q008,Neonatal CPR,neonatal,en
+Q009,Newborn resuscitation,neonatal,en
+Q010,Neonatal resuscitation,neonatal,en
+Q011,Pediatric Basic Life Support,bls,en
+Q012,Pediatric BLS,bls,en
+Q013,Basic Life Support for infants and children,bls,en
+Q014,Pediatric choking,choking,en
+Q015,Infant choking,choking,en
+Q016,Child choking,choking,en
+Q017,Baby choking,choking,en
+Q018,Toddler choking,choking,en
+Q019,Choking first aid for infants,choking,en
+Q020,How to save a choking baby,choking,en
+Q021,Infant back blows and chest thrusts,choking,en
+Q022,Heimlich maneuver for children,choking,en
+Q023,Unconscious choking child CPR,choking,en
+Q024,Foreign body airway obstruction in children,airway_obstruction,en
+Q025,Foreign body airway obstruction in infants,airway_obstruction,en
+Q026,Pediatric chest compressions,chest_compressions,en
+Q027,Infant chest compressions,chest_compressions,en
+Q028,Pediatric AED,aed,en
+Q029,AED use in children,aed,en
+Q030,Pediatric rescue breathing,rescue_breathing,en
+Q031,Rescue breathing for infants,rescue_breathing,en
+Q032,Pediatric CPR and choking management,combined,en
+Q033,Infant and child CPR and choking,combined,en
+Q034,bachon ki CPR,cpr,ur-roman
+Q035,bache ka dam ghutna choking,choking,ur-roman
