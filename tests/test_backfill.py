@@ -3,7 +3,7 @@ import tempfile
 import unittest
 from pathlib import Path
 
-from vidscreen.backfill import backfill_csv, backfill_dir
+from vidscreen.backfill import backfill_csv, backfill_dir, count_missing, run_with_cooldown
 from vidscreen.csv_io import write_records
 from vidscreen.schema import VideoRecord
 from vidscreen.transcripts import TranscriptResult
@@ -24,6 +24,23 @@ class FakeFetcher:
             return TranscriptResult(status="blocked")
         self.calls.append(vid)
         return TranscriptResult(text="hello world", status="ok", source="youtube_captions", language="en", is_auto=True)
+
+
+class RoundFetcher:
+    """Allows `per_round` fetches, then reports a block until reset_halt() (a cooldown) is called."""
+
+    def __init__(self, per_round):
+        self.per_round, self.used, self.halted = per_round, 0, False
+
+    def fetch(self, vid):
+        if self.used >= self.per_round:
+            self.halted = True
+            return TranscriptResult(status="blocked")
+        self.used += 1
+        return TranscriptResult(text="hi", status="ok", source="youtube_captions", language="en", is_auto=False)
+
+    def reset_halt(self):
+        self.used, self.halted = 0, False
 
 
 def read(path):
@@ -60,6 +77,33 @@ class BackfillTests(unittest.TestCase):
             self.assertTrue(p.exists())
             results = backfill_dir(Path(tmp), f)  # halted fetcher -> nothing more happens
             self.assertEqual(results, [])
+
+
+class CooldownTests(unittest.TestCase):
+    def _make(self, tmp, n):
+        write_records(Path(tmp) / "Q001_x.partial.csv", [rec(f"v{i}", "skipped_blocked") for i in range(n)])
+
+    def test_cooldown_rounds_finish_the_job(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            self._make(tmp, 5)
+            self.assertEqual(count_missing(Path(tmp)), (5, 5))
+            sleeps = []
+            out = run_with_cooldown(Path(tmp), RoundFetcher(2), cooldown_seconds=60, sleep_fn=sleeps.append)
+            self.assertEqual((out["status"], out["rounds"], out["filled_rows"], out["missing_rows"]), ("complete", 3, 5, 0))
+            self.assertEqual(sleeps, [60, 60])
+            self.assertTrue((Path(tmp) / "Q001_x.csv").exists())
+
+    def test_stops_when_cooldown_does_not_help(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            self._make(tmp, 3)
+            out = run_with_cooldown(Path(tmp), RoundFetcher(0), cooldown_seconds=60, stall_limit=2, sleep_fn=lambda s: None)
+            self.assertEqual((out["status"], out["rounds"], out["missing_rows"]), ("stalled", 2, 3))
+
+    def test_without_cooldown_single_round(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            self._make(tmp, 4)
+            out = run_with_cooldown(Path(tmp), RoundFetcher(1), cooldown_seconds=0)
+            self.assertEqual((out["status"], out["rounds"], out["filled_rows"], out["missing_rows"]), ("stopped_blocked", 1, 1, 3))
 
 
 if __name__ == "__main__":

@@ -11,6 +11,7 @@ import csv
 import logging
 import os
 import sys
+import time
 from pathlib import Path
 
 from .utils import word_count
@@ -86,3 +87,59 @@ def backfill_dir(raw_dir: Path, fetcher) -> list[dict]:
         log.info("%s: filled %d, still missing %d", stats["path"].name, stats["updated"], stats["remaining"])
         results.append(stats)
     return results
+
+
+def count_missing(raw_dir: Path) -> tuple:
+    """(rows, unique_videos) that still need a YouTube transcript, across ALL CSVs."""
+    rows, ids = 0, set()
+    for path in sorted(Path(raw_dir).glob("Q*.csv")):
+        with path.open(encoding="utf-8-sig", newline="") as f:
+            for row in csv.DictReader(f):
+                if needs_retry(row):
+                    rows += 1
+                    ids.add(row["video_id"])
+    return rows, len(ids)
+
+
+def run_with_cooldown(
+    raw_dir: Path,
+    fetcher,
+    cooldown_seconds: float = 0,
+    max_seconds: float = 36000,
+    stall_limit: int = 3,
+    sleep_fn=time.sleep,
+    clock=time.monotonic,
+) -> dict:
+    """Repeat backfill rounds; when YouTube blocks, wait `cooldown_seconds` and try again.
+
+    Stops when: everything is filled, cooldown is off, no progress for `stall_limit` rounds,
+    or the time limit would be exceeded. Progress is saved after every file.
+    """
+    start, rounds, stalled, total = clock(), 0, 0, 0
+    while True:
+        rounds += 1
+        results = backfill_dir(raw_dir, fetcher)
+        filled = sum(r["updated"] for r in results)
+        total += filled
+        rows, unique = count_missing(raw_dir)
+        log.info("Round %d: filled %d rows | still missing %d rows (%d unique videos)", rounds, filled, rows, unique)
+        if rows == 0:
+            status = "complete"
+            break
+        if not fetcher.halted and filled == 0:
+            status = "no_progress"  # not blocked, yet nothing could be filled
+            break
+        if not cooldown_seconds:
+            status = "stopped_blocked"
+            break
+        stalled = stalled + 1 if filled == 0 else 0
+        if stalled >= stall_limit:
+            status = "stalled"
+            break
+        if clock() - start + cooldown_seconds > max_seconds:
+            status = "time_limit"
+            break
+        log.info("Cooling down for %.0f minutes before the next round (Ctrl+C to stop; progress is saved)...", cooldown_seconds / 60)
+        sleep_fn(cooldown_seconds)
+        fetcher.reset_halt()
+    return {"status": status, "rounds": rounds, "filled_rows": total, "missing_rows": rows, "missing_unique_videos": unique}
