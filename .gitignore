@@ -15,3 +15,9 @@ logs/*
 # Temporary and runtime files
 *.partial.csv
 logs/*
+
+# Generated screening outputs
+data/final/*.csv
+data/final/*.json
+data/final/v1_initial/
+data/labeled/
