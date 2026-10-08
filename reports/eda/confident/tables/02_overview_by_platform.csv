@@ -1,0 +1,3 @@
+﻿platform,videos,share_of_dataset_pct,distinct_creators,videos_per_creator_mean,videos_per_creator_median,videos_per_creator_max,top10_creators_share_of_videos_pct,gini_videos_per_creator,total_duration_hours,median_duration_min,videos_with_transcript,found_by_2plus_queries,human_labeled,model_scored
+youtube,542,46.4,290,1.87,1.0,65,27.5,0.409,51.3,2.92,38,299,126,416
+tiktok,625,53.6,428,1.46,1.0,26,14.9,0.279,13.3,0.85,346,230,79,546

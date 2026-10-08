@@ -1,0 +1,5 @@
+dataset,platform,videos,share_percent,median_duration_seconds,median_views,median_likes,median_comments
+main,tiktok,733,56.0,50.2,6902.0,151.0,4.0
+main,youtube,576,44.0,177.0,14671.0,112.0,8.0
+confident,tiktok,625,53.56,50.97,5638.0,131.0,4.0
+confident,youtube,542,46.44,175.0,15750.5,115.0,8.0

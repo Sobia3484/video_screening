@@ -1,0 +1,2 @@
+﻿n_x,n_y,median_x,median_y,median_diff,median_diff_ci_low,median_diff_ci_high,u_statistic,p_value,cliffs_delta,delta_ci_low,delta_ci_high,magnitude
+576,733,177.0,50.2,126.8,112.0485,137.531,362353.5,5.981210259542833e-110,0.716469133697135,0.6755824735675307,0.7556620788805517,large
